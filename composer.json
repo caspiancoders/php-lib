@@ -1,0 +1,21 @@
+{
+  "name": "caspiancoders/php-lib",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caspian Coders",
+      "email": "61270465+caspiancoders@users.noreply.github.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Caspian\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "symfony/var-dumper": "^5.0"
+  }
+}
